@@ -102,7 +102,7 @@ const SeatAllocation = () => {
                   {errors.bed_no && (
                     <span style={{ color: "red" }}>This field is required</span>
                   )}
-                </div>
+                </div> 
                 </div>
             <div className='flex justify-center'>
             <input  className="submitBtn" type="submit" />
