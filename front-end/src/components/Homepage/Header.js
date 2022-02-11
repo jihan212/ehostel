@@ -4,7 +4,7 @@ import Navbar from './Navbar/Navbar'
 
 const Header = () => {
   return (
-    <header class='text-gray-700 body-font border-b border-gray-200'>
+    <header class='text-gray-700 body-font border-b border-gray-200 bg-gray-200'>
       <div class='container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center'>
         <a
           class='flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0'
