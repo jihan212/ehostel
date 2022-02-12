@@ -1,71 +1,69 @@
 import {
-  faAddressCard, faEnvelope, faPhone
+  faAddressCard,
+  faEnvelope,
+  faPhone,
 } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import React from 'react'
 
 const Contact = () => {
   return (
-    <section class='text-gray-700 body-font relative'>
-      <div class='flex flex-wrap w-full mb-20 flex-col items-center text-center'>
-        <h1 class='sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900'>
-          GET IN TOUCH
-        </h1>
-      </div>
-      <div class='container mx-auto flex flex-wrap'>
-        <div class='p-2 lg:w-1/3 md:w-1/2 w-full'>
-          <h3 class='sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900'>
-            CONTACT US
-          </h3>
-
-          <div class='mx-auto mt-12'>
-            <div class='flex items-center'>
-              <div class='flex-grow'>
-                <FontAwesomeIcon icon={faAddressCard} size='2x' />
-              </div>
-              <div class='flex-grow'>
-                <h2 class='text-gray-900 title-font font-medium'>Address</h2>
-                <p class='text-gray-500'>Dormitory Hall,Bangladesh</p>
-              </div>
-            </div>
-
-            <div class='flex items-center'>
-              <div class='flex-grow'>
-                <FontAwesomeIcon icon={faPhone} size='2x' />
-              </div>
-              <div class='flex-grow'>
-                <h2 class='text-gray-900 title-font font-medium'>Phone</h2>
-                <p class='text-gray-500'>01783546945</p>
+    <section className='text-gray-700 body-font border-t border-gray-200'>
+      <div className='container px-5 py-24 mx-auto'>
+        <div className='flex flex-col text-center w-full mb-12'>
+          <h1 className='sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900'>
+            Contact Us
+          </h1>
+        </div>
+        <div className='lg:w-1/2 md:w-2/3 mx-auto'>
+          <div className='flex flex-wrap -m-2'>
+            <div className='p-2 w-1/2'>
+              <div>
+                <label for='name' className='leading-7 text-sm text-gray-600'>
+                  Name
+                </label>
+                <input
+                  type='text'
+                  id='name'
+                  name='name'
+                  className='w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                />
               </div>
             </div>
-
-            <div class='flex items-center'>
-              <div class='flex-grow'>
-                <FontAwesomeIcon icon={faEnvelope} size='2x' />
+            <div className='p-2 w-1/2'>
+              <div>
+                <label for='email' className='leading-7 text-sm text-gray-600'>
+                  Email
+                </label>
+                <input
+                  type='email'
+                  id='email'
+                  name='email'
+                  className='w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out'
+                />
               </div>
-              <div class='flex-grow'>
-                <h2 class='text-gray-900 title-font font-medium'>Email</h2>
-                <p class='text-gray-500'>Fojilatunnesa13@gmail.com</p>
+            </div>
+            <div className='p-2 w-full'>
+              <div>
+                <label
+                  for='message'
+                  className='leading-7 text-sm text-gray-600'
+                >
+                  Message
+                </label>
+                <textarea
+                  id='message'
+                  name='message'
+                  className='w-full bg-gray-100 rounded border border-gray-300 focus:border-indigo-500 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out'
+                ></textarea>
               </div>
+            </div>
+            <div className='p-2 w-full'>
+              <button className='flex mx-auto text-white bg-indigo-500 border-0 py-2 px-8 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+                Send
+              </button>
             </div>
           </div>
-        </div>
-        <div class='lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10'>
-          <h3 class='sm:text-2xl text-xl font-medium title-font mb-2 text-gray-900'>
-            SEND MESSAGE
-          </h3>
-          <input
-            class='bg-white rounded border border-gray-400 focus:outline-none focus:border-indigo-500 text-base px-4 py-2 mb-4'
-            placeholder='Email'
-            type='email'
-          />
-          <textarea
-            class='bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-indigo-500 text-base px-4 py-2 mb-4 resize-none'
-            placeholder='Message'
-          ></textarea>
-          <button class='text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
-            Button
-          </button>
         </div>
       </div>
     </section>

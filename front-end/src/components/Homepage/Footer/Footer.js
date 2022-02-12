@@ -6,61 +6,7 @@ const Footer = () => {
     <footer class='text-gray-700 body-font bg-gray-200'>
       <div class='container px-4 py-24 mx-auto'>
         <div class='flex flex-wrap md:text-left text-center -mb-10 -mx-4 '>
-          <div class='lg:w-1/4 md:w-1/2 w-full px-4 '>
-            <h2 class='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
-              CATEGORIES
-            </h2>
-            <nav class='list-none mb-10'>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  First Link
-                </a>
-              </li>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  Second Link
-                </a>
-              </li>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  Third Link
-                </a>
-              </li>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  Fourth Link
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div class='lg:w-1/4 md:w-1/2 w-full px-4'>
-            <h2 class='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
-              BLOGS
-            </h2>
-            <nav class='list-none mb-10'>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  First Link
-                </a>
-              </li>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  Second Link
-                </a>
-              </li>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  Third Link
-                </a>
-              </li>
-              <li>
-                <a class='text-gray-600 hover:text-gray-800' href='http://'>
-                  Fourth Link
-                </a>
-              </li>
-            </nav>
-          </div>
-          <div class='lg:w-1/4 md:w-1/2 w-full px-4'>
+          <div class='lg:w-1/2 md:w-1/2 w-full px-4'>
             <h2 class='title-font font-medium text-gray-900 tracking-widest text-sm mb-3'>
               SOCIAL
             </h2>
@@ -99,7 +45,7 @@ const Footer = () => {
               </li>
             </nav>
           </div>
-          <div class='lg:w-1/4 md:w-1/2 w-full px-4'>
+          <div class='lg:w-1/2 md:w-1/2 w-full px-4'>
             <nav class='list-none mb-10'>
               <li>
                 <img src={store} alt='' />

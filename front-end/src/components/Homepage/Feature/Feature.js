@@ -10,17 +10,17 @@ const Feature = () => {
       <div class='container px-5 py-24 mx-auto'>
         <div class='flex flex-wrap w-full mb-20 flex-col items-center text-center'>
           <h1 class='sm:text-3xl text-2xl font-medium title-font mb-2 text-gray-900'>
-            Feature
+            Facilities
           </h1>
         </div>
         <div class='flex flex-wrap -m-4'>
           <div class='xl:w-1/3 md:w-1/2 p-4'>
             <div class='border border-gray-300 p-6 rounded-lg'>
               <div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4'>
-                <FontAwesomeIcon icon={faConciergeBell} size='3x' />
+                <FontAwesomeIcon icon={faAddressCard} size='3x' />
               </div>
               <h2 class='text-lg text-gray-900 font-medium title-font mb-2'>
-                Service
+                Neat & clean environment
               </h2>
               <p class='leading-relaxed text-base'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -32,10 +32,10 @@ const Feature = () => {
           <div class='xl:w-1/3 md:w-1/2 p-4'>
             <div class='border border-gray-300 p-6 rounded-lg'>
               <div class='w-20 h-20 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-4'>
-                <FontAwesomeIcon icon={faAddressCard} size='3x' />
+                <FontAwesomeIcon icon={faConciergeBell} size='3x' />
               </div>
               <h2 class='text-lg text-gray-900 font-medium title-font mb-2'>
-                About
+                Quality Food
               </h2>
               <p class='leading-relaxed text-base'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -50,7 +50,7 @@ const Feature = () => {
                 <FontAwesomeIcon icon={faMinusCircle} size='3x' />
               </div>
               <h2 class='text-lg text-gray-900 font-medium title-font mb-2'>
-                Rule
+                Security
               </h2>
               <p class='leading-relaxed text-base'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
@@ -65,7 +65,7 @@ const Feature = () => {
                 <FontAwesomeIcon icon={faHandsHelping} size='3x' />
               </div>
               <h2 class='text-lg text-gray-900 font-medium title-font mb-2'>
-                Help
+                Cost Effective
               </h2>
               <p class='leading-relaxed text-base'>
                 Lorem ipsum dolor, sit amet consectetur adipisicing elit.
