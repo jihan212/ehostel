@@ -1,21 +1,22 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <>
       <nav className='md:ml-auto flex flex-wrap items-center title-font sm:text-2xl text-2xl font-medium   justify-center'>
-        <a className='mr-5 hover:text-gray-900' href='/'>
+        <Link className='mr-5 hover:text-gray-900' to='/'>
           Home
-        </a>
-        <a className='mr-5 hover:text-gray-900' href='/'>
+        </Link>
+        <Link className='mr-5 hover:text-gray-900' to='/'>
           About
-        </a>
-        <a className='mr-5 hover:text-gray-900' href='/'>
+        </Link>
+        <Link className='mr-5 hover:text-gray-900' to='/'>
           Contact
-        </a>
-        <a className='mr-5 hover:text-gray-900' href='/dashboard'>
+        </Link>
+        <Link className='mr-5 hover:text-gray-900' to='/dashboard'>
           Dashboard
-        </a>
+        </Link>
       </nav>
     </>
   )
