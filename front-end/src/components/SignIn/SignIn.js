@@ -105,14 +105,14 @@ function SignIn() {
             By signing up, you agree to the &nbsp;
             <a
               className='no-underline border-b border-grey-dark text-grey-dark'
-              href='#'
+              href='/'
             >
               Terms of Service
             </a>
             &nbsp; and &nbsp;
             <a
               className='no-underline border-b border-grey-dark text-grey-dark'
-              href='#'
+              href='/'
             >
               Privacy Policy
             </a>
