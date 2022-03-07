@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom'
 const Button = () => {
   return (
     <Link to='/signin'>
-      <button class='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg'>
+      <button class='inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded font-medium tracking-widest text-white uppercase'>
         Sign Up
       </button>
     </Link>
